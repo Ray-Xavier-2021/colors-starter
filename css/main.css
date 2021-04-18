@@ -60,7 +60,11 @@ footer {
 
 @media (min-width: 768px) {
   header {
-    background-color: #ff0000;
+    background-color: #ff0000;    
+  }
+
+  .col-3 {
+    width: 50%;
   }
 
   #column-1 {
@@ -73,6 +77,7 @@ footer {
 
   #column-3 {
     background-color: #ffb3b3;
+    width: 100%
   }
 
   footer {
@@ -88,6 +93,10 @@ footer {
     background-color: #ccffcc;
   }
 
+  .col-3 {
+    width: 33.3%;
+  }
+
   #column-1 {
     background-color: #80ff80;
   }
@@ -98,6 +107,7 @@ footer {
 
   #column-3 {
     background-color: #00e600;
+    width: 33.3%;
   }
 
   footer {
